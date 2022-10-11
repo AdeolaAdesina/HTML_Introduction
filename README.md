@@ -1,6 +1,14 @@
 # HTML_Introduction
 HTML is the backbone of the Web. The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
 
+HTML stands for HyperText Markup Language:
+
+A markup language is a computer language that defines the structure and presentation of raw text.
+
+In HTML, the computer can interpret raw text that is wrapped in HTML elements.
+HyperText is text displayed on a computer or device that provides access to other text through links, also known as hyperlinks. You probably clicked on a couple of hyperlinks on your way to this Codecademy course.
+Learning HTML is the first step in creating websites, but even a bit of knowledge can help you inject code snippets into newsletter, blog or website templates. As you continue learning, you can layer HTML with CSS and JavaScript to create visually compelling and dynamic websites. But for now, we’re going to focus on how to add and modify basic content on a page, like text, images, and videos. Don’t worry if the websites look ugly — we’re just getting started.
+
 In this introductory session, you will be getting started with buiding mini websites with HTML.
 
 First steps:
