@@ -62,3 +62,19 @@ Next us the 'save as' option and save as index.html.
 This will create a webpage in the HTML folder. Go to the folder and click on the web page.
 
 Congratulations, you just designed your first web page.
+
+#HTML Anatomy
+
+![Screenshot 2022-10-11 at 16 19 10](https://user-images.githubusercontent.com/29931071/195134365-5da51b77-d517-442b-a1f6-28afa8c460f2.png)
+
+The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of:
+
+An opening tag (<p>)
+The content (“Hello World!” text)
+A closing tag (</p>)
+
+A tag and the content between it is called an HTML element. 
+
+There are many tags that we can use to organize and display text and other types of content, like images.
+
+
