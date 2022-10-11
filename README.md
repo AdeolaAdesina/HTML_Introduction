@@ -46,3 +46,11 @@ Welcome to my first Website.
 </body>
 </html>
 ```
+
+Now save the index.txt file.
+
+Next us the 'save as' option and save as index.html.
+
+This will create a webpage in the HTML folder. Go to the folder and click on the web page.
+
+Congratulations, you just designed your first web page.
