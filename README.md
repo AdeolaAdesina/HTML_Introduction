@@ -63,7 +63,7 @@ This will create a webpage in the HTML folder. Go to the folder and click on the
 
 Congratulations, you just designed your first web page.
 
-#HTML Anatomy
+# HTML Anatomy
 
 ![Screenshot 2022-10-11 at 16 19 10](https://user-images.githubusercontent.com/29931071/195134365-5da51b77-d517-442b-a1f6-28afa8c460f2.png)
 
