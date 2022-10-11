@@ -133,6 +133,7 @@ Now use the 'save as' option and save as index.html
 Now you can refresh your website to see the changes.
 
 #Class 2
+
 # HTML Structure
 
 HTML is organized as a collection of family tree relationships. 
@@ -166,7 +167,7 @@ Both the <h1> and <p> elements are children of the <div> element.
   
 Because the <h1> and <p> elements are at the same level, they are considered siblings and are both grandchildren of the <body> element.
   
-## Class work 2
+# Class work 2
   
 Open your index.txt file, make a <div> element a parent of the <h1> and <p> element.
   
