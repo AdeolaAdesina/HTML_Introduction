@@ -163,13 +163,13 @@ Let’s consider a more complicated example that uses some new tags:
 
 In this example, the <body> element is the parent of the <div> element. 
   
-Both the <h1> and <p> elements are children of the <div> element. 
+Both the h1 and p elements are children of the <div> element. 
   
-Because the <h1> and <p> elements are at the same level, they are considered siblings and are both grandchildren of the <body> element.
+Because the h1 and p elements are at the same level, they are considered siblings and are both grandchildren of the <body> element.
   
 # Class work 2
   
-Open your index.txt file, make a <div> element a parent of the <h1> and <p> element.
+Open your index.txt file, make a <div> element a parent of the h1 and p element.
   
 Your index.txt file would look like this:
   
