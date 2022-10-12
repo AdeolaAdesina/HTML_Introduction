@@ -590,9 +590,9 @@ Browsers, however, have built-in style sheets that will generally style these ta
  
 ## Class Work
  
- Style the paragraph in the first div with an <em> tag
+ Style the paragraph in the first div with an ```<em>``` tag
  
- Style the paragraph in second div with a <strong> tag
+ Style the paragraph in second div with a ```<strong>``` tag
  
  ```
 <html>
