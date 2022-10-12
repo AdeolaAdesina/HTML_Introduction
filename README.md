@@ -239,5 +239,104 @@ Now add this to your body element:
  
  # Div Element
 
- One of the most popular elements in HTML is the ```div``` element. <div> is short for “division” or a container that divides the page into sections. These sections are very useful for grouping elements in your HTML together.
+ One of the most popular elements in HTML is the ```div``` element. <div> is short for “division” or a container that divides the page into sections.
+ 
+ These sections are very useful for grouping elements in your HTML together. Like:
+ 
+ ```
+ <body>
+  <div>
+    <h1>Why use divs?</h1>
+    <p>Great for grouping elements!</p>
+  </div>
+</body>
+ ```
+ 
+ ```div``` don’t inherently have a visual representation, but they are very useful when we want to apply custom styles to our HTML elements.
+ 
+ ```div```s allow us to group HTML elements to apply the same styles for all HTML elements inside.
+ 
+ Also, ```div```s can contain any text or other HTML elements, such as links, images, or videos.
+ 
+ ## Class Work
+ 
+ This is your index.html:
+ 
+ ```
+ <html>
+<head>
+<title>
+My first site
+</title>
+</head>
+<body>
+<div>
+<h1>
+Welcome to my first Website.
+</h1>
+<p> Here's how i'm learning to build websites at Polygon Africa Bootcamp </p>
+<h1>Polygon Africa Bootcamp</h1>
+<h2>My first time building responsive websites</h2>
+<h3>HTML seems so beautiful</h3>
+<h3>I think i'm enjoying this</h3>
+</div>
+</body>
+</html>
+ ```
+ 
+ You can see that all the elements in the body are nested into a ```div``` element.
+ 
+ Now create another ```div``` element, open and close it and insert another heading and paragraph:
+ 
+ ```
+ <h1>
+  This is the new heading under the new div element
+ </h1>
+ <p>
+ This just explains how to structure an HTML site with divs.
+ </p>
 
+So your final html file should be:
+ 
+```
+ <html>
+<head>
+ 
+<title>
+My first site
+</title>
+ 
+</head>
+  
+<body>
+ 
+<div>
+ 
+<h1>
+Welcome to my first Website.
+</h1>
+ 
+<p> Here's how i'm learning to build websites at Polygon Africa Bootcamp </p>
+ 
+<h1>Polygon Africa Bootcamp</h1>
+<h2>My first time building responsive websites</h2>
+<h3>HTML seems so beautiful</h3>
+<h3>I think i'm enjoying this</h3>
+ 
+</div>
+ 
+<div>
+ 
+  <h1>
+  This is the new heading under the new div element
+ </h1>
+ 
+ <p>
+ This just explains how to structure an HTML site with divs.
+ </p>
+ 
+</div>
+ 
+</body>
+</html>
+ ```
