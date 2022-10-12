@@ -209,4 +209,34 @@ This determines what you see at the very top of your webpage.
 Now change the text in your title element to 'mywebsite.com'
 
 
+# Headings
+
+ You've already used an heading element in h1 above.
  
+In HTML, there are six different headings, or heading elements. 
+ 
+Headings can be used for a variety of purposes, like titling sections, articles, or other forms of content.
+ 
+ They are ordered from largest to smallest in size.
+
+<h1> — used for main headings. All other smaller headings are used for subheadings.
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+
+Now add this to your body element:
+ 
+```
+ <h1>Polygon Africa Bootcamp</h1>
+ <h2>My first time building responsive websites</h2>
+ <h3>HTML seems so beautiful</h3>
+ <h3>I think i'm enjoying this</h3>
+ ```
+ 
+ What you will discover is the size difference of the differing tags.
+ 
+ # Div Element
+
+
