@@ -1,6 +1,10 @@
 # HTML_Introduction
 
-This tutorial was drawn from codeacademy.com
+## Please note that this tutorial was created for Polygon Africa bootcamp Web2 beginners(this means people who want to learn HTML, CSS, Javascript and React), and we meet by 7pm every day on the discord voice channel.
+
+Also, Web2 developers who are getting started with Web3 meet by 9pm, every Monday, Wednesday, and Friday on the discord voice channel.
+
+This tutorial was drawn from codeacademy.com, so feel free to have more hands-on learning there, it's free.
 
 HTML is the backbone of the Web. The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
 
@@ -8,8 +12,9 @@ HTML stands for HyperText Markup Language:
 
 A markup language is a computer language that defines the structure and presentation of raw text.
 
-In HTML, the computer can interpret raw text that is wrapped in HTML elements.
+
 HyperText is text displayed on a computer or device that provides access to other text through links, also known as hyperlinks. You probably clicked on a couple of hyperlinks on your way to this Codecademy course.
+
 Learning HTML is the first step in creating websites, but even a bit of knowledge can help you inject code snippets into newsletter, blog or website templates. As you continue learning, you can layer HTML with CSS and JavaScript to create visually compelling and dynamic websites. But for now, we’re going to focus on how to add and modify basic content on a page, like text, images, and videos. Don’t worry if the websites look ugly — we’re just getting started.
 
 # Class 1
@@ -190,4 +195,16 @@ Welcome to my first Website.
 </body>
 </html>
 ```
+
+## The Head Element.
+
+Several things can go inside the head element but one of the most import elements that goes there is the title element.  
+
+This determines what you see at the very top of your webpage.
+
+## Class Work:
+
+Now change the text in your title element to 'mywebsite.com'
+
+
  
