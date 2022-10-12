@@ -39,11 +39,14 @@ This is an opened HTML tag and closed HTML tag. Every website on the internet st
 Next give it an head and body tag:
 
 ```
-<html>
+<html> 
+
 <head>
 </head>
+
 <body>
 </body>
+
 </html>
 ```
 
@@ -53,17 +56,23 @@ Now inside the head tag, let's give it a title tag:
 
 ```
 <html>
+
 <head>
+
 <title>
 My first site
 </title>
+
 </head>
+
 <body>
+
 <h1>
 Welcome to my first Website.
-
 </h1>
+
 </body>
+
 </html>
 ```
 
@@ -120,17 +129,25 @@ Now your entire code should look like this:
 Index.txt:
 ```
 <html>
+
 <head>
+
 <title>
 My first site
 </title>
+
 </head>
+
 <body>
+
 <h1>
 Welcome to my first Website.
 </h1>
+
 <p> Here's how i'm learning to build websites at Polygon Africa Bootcamp </p>
+
 </body>
+
 </html>
 ```
 
@@ -150,7 +167,7 @@ As you saw in the last class, we placed <p> tags within <body> tags. When an ele
 The child element is said to be nested inside of the parent element.
   
 ```
-  <body>
+<body>
   <p>This paragraph is a child of the body</p>
 </body>
 ```
@@ -182,19 +199,29 @@ Your index.txt file would look like this:
   
 ```
 <html>
+ 
 <head>
+ 
 <title>
 My first site
 </title>
+ 
 </head>
+ 
 <body>
+ 
 <div>
+ 
 <h1>
 Welcome to my first Website.
 </h1>
+ 
 <p> Here's how i'm learning to build websites at Polygon Africa Bootcamp </p>
+ 
 </div>
+ 
 </body>
+ 
 </html>
 ```
 
@@ -207,6 +234,37 @@ This determines what you see at the very top of your webpage.
 ## Class Work:
 
 Now change the text in your title element to 'mywebsite.com'
+ 
+Your index.html file should now be:
+ 
+```
+<html>
+ 
+<head>
+ 
+<title>
+mywebsite.com
+</title>
+ 
+</head>
+ 
+<body>
+ 
+<div>
+ 
+<h1>
+Welcome to my first Website.
+</h1>
+ 
+<p> Here's how i'm learning to build websites at Polygon Africa Bootcamp </p>
+ 
+</div>
+ 
+</body>
+ 
+</html>
+```
+ 
 
 
 # Headings
@@ -226,6 +284,8 @@ Headings can be used for a variety of purposes, like titling sections, articles,
 - h5
 - h6
 
+## Class work
+ 
 Now add this to your body element:
  
 ```
@@ -237,6 +297,41 @@ Now add this to your body element:
  
  What you will discover is the size difference of the differing tags.
  
+ Your index.html file will be:
+ 
+ ```
+<html>
+ 
+<head>
+ 
+<title>
+mywebsite.com
+</title>
+ 
+</head>
+ 
+<body>
+ 
+<div>
+ 
+<h1>
+Welcome to my first Website.
+</h1>
+ 
+<p> Here's how i'm learning to build websites at Polygon Africa Bootcamp </p>
+ 
+<h1>Polygon Africa Bootcamp</h1>
+<h2>My first time building responsive websites</h2>
+<h3>HTML seems so beautiful</h3>
+<h3>I think i'm enjoying this</h3>
+ 
+</div>
+ 
+</body>
+ 
+</html>
+```
+ 
  # Div Element
 
  One of the most popular elements in HTML is the ```div``` element. <div> is short for “division” or a container that divides the page into sections.
@@ -245,10 +340,14 @@ Now add this to your body element:
  
  ```
  <body>
+  
   <div>
+   
     <h1>Why use divs?</h1>
     <p>Great for grouping elements!</p>
+   
   </div>
+  
 </body>
  ```
  
@@ -260,27 +359,42 @@ Now add this to your body element:
  
  ## Class Work
  
+ Now nest the headings you wrote last into a new ```div``` element.
+ 
  This is your index.html:
  
  ```
- <html>
+<html>
+ 
 <head>
+ 
 <title>
-My first site
+mywebsite.com
 </title>
+ 
 </head>
+ 
 <body>
+ 
 <div>
+ 
 <h1>
 Welcome to my first Website.
 </h1>
+ 
 <p> Here's how i'm learning to build websites at Polygon Africa Bootcamp </p>
+ 
+<div>
+ 
 <h1>Polygon Africa Bootcamp</h1>
 <h2>My first time building responsive websites</h2>
 <h3>HTML seems so beautiful</h3>
 <h3>I think i'm enjoying this</h3>
+ 
 </div>
+ 
 </body>
+ 
 </html>
  ```
  
@@ -318,6 +432,10 @@ Welcome to my first Website.
 </h1>
  
 <p> Here's how i'm learning to build websites at Polygon Africa Bootcamp </p>
+ 
+ </div>
+ 
+ <div>
  
 <h1>Polygon Africa Bootcamp</h1>
 <h2>My first time building responsive websites</h2>
