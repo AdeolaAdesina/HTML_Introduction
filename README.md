@@ -581,12 +581,12 @@ Paragraphs ```p``` contain a block of plain text.
  
 You can also style text using HTML tags. 
  
- The <em> tag emphasizes text, while the <strong> tag highlights important text.
+ The ```<em>``` tag emphasizes text, while the ```<strong>``` tag highlights important text.
  
 Browsers, however, have built-in style sheets that will generally style these tags in the following ways:
 
-- The <em> tag will generally render as italic emphasis.
-- The <strong> will generally render as bold emphasis.
+- The ```<em>``` tag will generally render as italic emphasis.
+- The ```<strong>``` will generally render as bold emphasis.
  
 ## Class Work
  
