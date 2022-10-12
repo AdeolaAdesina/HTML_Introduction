@@ -657,3 +657,64 @@ Example:
 ```
  
  
+# Class Work:
+ 
+Add two line breaks (<br>) to any paragraph in the index.html file and see the effect.
+ 
+This is my index.html:
+ 
+```
+<html>
+<head>
+ 
+<title>
+My first site
+</title>
+ 
+</head>
+  
+<body>
+ 
+<div id="first attribute">
+ 
+<h1>
+Welcome to my first Website.
+</h1>
+ 
+ <p><em> Here's how i'm learning to build <br> websites at Polygon Africa Bootcamp </em></p>
+ 
+ </div>
+ 
+ <div id="second attribute">
+ 
+<h1>Polygon Africa Bootcamp</h1>
+<h2>My first time building responsive websites</h2>
+<h3>HTML seems so beautiful</h3>
+<h3>I think i'm enjoying this</h3>
+ 
+</div>
+ 
+<div id="third attribute">
+ 
+  <h1>
+  This is the new heading under the new div element
+ </h1>
+ 
+ <p>
+ <strong>
+ This just explains how to <br> structure an HTML site with divs.
+ </strong>
+ </p>
+ 
+</div>
+ 
+</body>
+</html>
+ ```
+ 
+ Notice that ```br``` does not need a closing tag.
+ 
+ 
+ # Unordered List
+ 
+ 
