@@ -219,12 +219,12 @@ Headings can be used for a variety of purposes, like titling sections, articles,
  
  They are ordered from largest to smallest in size.
 
-h1— used for main headings. All other smaller headings are used for subheadings.
-h2
-h3
-h4
-h5
-h6
+- h1— used for main headings. All other smaller headings are used for subheadings.
+- h2
+- h3
+- h4
+- h5
+- h6
 
 Now add this to your body element:
  
