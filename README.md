@@ -461,3 +461,199 @@ Welcome to my first Website.
  ```
  
  
+# Attributes
+ 
+If we want to expand an element’s tag, we can do so using an attribute. 
+ 
+Attributes are content added to the opening tag of an element and can be used in several different ways, from providing information to changing styling. 
+ 
+Attributes are made up of the following two parts:
+
+- The name of the attribute
+- The value of the attribute
+ 
+ One commonly used attribute is the id.
+ 
+ For example:
+ 
+ ```
+ <div id="intro">
+  <h1>Introduction</h1>
+</div>
+ ```
+ 
+ See how we gave this div an attribute of name=id and value="intro".
+ 
+ ## Class work
+ 
+ In your index.html file, you have 3 ```div```s, now add an id attrubute to the 3 divs. 
+ 
+ Give the first a value of "first attribute"
+ 
+ Give the second a value of "second attribute"
+ 
+ Give the third a value of "third attribute"
+ 
+ Now your index.html file should look like this:
+ 
+ ```
+ <html>
+<head>
+ 
+<title>
+My first site
+</title>
+ 
+</head>
+  
+<body>
+ 
+<div id="first attribute">
+ 
+<h1>
+Welcome to my first Website.
+</h1>
+ 
+<p> Here's how i'm learning to build websites at Polygon Africa Bootcamp </p>
+ 
+ </div>
+ 
+ <div id="second attribute">
+ 
+<h1>Polygon Africa Bootcamp</h1>
+<h2>My first time building responsive websites</h2>
+<h3>HTML seems so beautiful</h3>
+<h3>I think i'm enjoying this</h3>
+ 
+</div>
+ 
+<div id="third attribute">
+ 
+  <h1>
+  This is the new heading under the new div element
+ </h1>
+ 
+ <p>
+ This just explains how to structure an HTML site with divs.
+ </p>
+ 
+</div>
+ 
+</body>
+</html>
+ ```
+ 
+ Did you notice that attributes always appear at the opening of the tag?
+ 
+ Exactly.
+ 
+ Also ```div``` is not the only element that can take an attribute, every other element can.
+ 
+
+# Displaying Text
+
+If you want to display text in HTML, you can use a paragraph or span:
+
+Paragraphs ```p``` contain a block of plain text.
+ 
+```span``` contains short pieces of text or other HTML. 
+ 
+ They are used to separate small pieces of content that are on the same line as other content.
+ 
+ For example:
+ 
+```
+<div>
+ 
+  <h1>Technology</h1>
+ 
+</div>
+ 
+<div>
+ 
+  <p> <span>Self-driving cars</span> are anticipated to replace up to 2 million jobs over the next two decades.</p>
+ 
+</div>
+```
+ 
+
+# Styling Text
+ 
+You can also style text using HTML tags. 
+ 
+ The <em> tag emphasizes text, while the <strong> tag highlights important text.
+ 
+Browsers, however, have built-in style sheets that will generally style these tags in the following ways:
+
+- The <em> tag will generally render as italic emphasis.
+- The <strong> will generally render as bold emphasis.
+ 
+## Class Work
+ 
+ Style the paragraph in the first div with an <em> tag
+ 
+ Style the paragraph in second div with a <strong> tag
+ 
+ ```
+<html>
+<head>
+ 
+<title>
+My first site
+</title>
+ 
+</head>
+  
+<body>
+ 
+<div id="first attribute">
+ 
+<h1>
+Welcome to my first Website.
+</h1>
+ 
+ <p><em> Here's how i'm learning to build websites at Polygon Africa Bootcamp </em></p>
+ 
+ </div>
+ 
+ <div id="second attribute">
+ 
+<h1>Polygon Africa Bootcamp</h1>
+<h2>My first time building responsive websites</h2>
+<h3>HTML seems so beautiful</h3>
+<h3>I think i'm enjoying this</h3>
+ 
+</div>
+ 
+<div id="third attribute">
+ 
+  <h1>
+  This is the new heading under the new div element
+ </h1>
+ 
+ <p>
+ <strong>
+ This just explains how to structure an HTML site with divs.
+ </strong>
+ </p>
+ 
+</div>
+ 
+</body>
+</html>
+ ```
+ 
+ 
+ # Line Breaks
+ 
+The spacing between code in an HTML file doesn’t affect the positioning of elements in the browser. 
+ 
+If you are interested in modifying the spacing in the browser, you can use HTML’s line break element: <br>.
+ 
+Example:
+ 
+```
+<p>The Nile River is the longest river <br> in the world, measuring over 6,850 <br> kilometers long (approximately 4,260 <br> miles).</p>
+```
+ 
+ 
