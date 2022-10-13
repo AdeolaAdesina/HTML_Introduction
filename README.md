@@ -33,6 +33,7 @@ First steps:
 
 ```
 <html>
+
 </html>
 ```
 
@@ -44,15 +45,17 @@ Next give it an head and body tag:
 <html> 
 
 <head>
+
 </head>
 
 <body>
+
 </body>
 
 </html>
 ```
 
-Notice how we open a tag with <> and close the tag with </>
+Notice how we open a tag with ```<>``` and close the tag with ```</>```
 
 Now inside the head tag, let's give it a title tag:
 
@@ -92,9 +95,9 @@ Congratulations, you just designed your first web page.
 
 The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of:
 
-An opening tag (<p>)
-The content (“Hello World!” text)
-A closing tag (</p>)
+An opening tag ```<p>```
+The content ```(“Hello World!” text)```
+A closing tag ```</p>```
 
 A tag and the content between it is called an HTML element. 
 
@@ -102,7 +105,9 @@ There are many tags that we can use to organize and display text and other types
 
 # The Body
 
-One of the key HTML elements we use to build a webpage is the body element. Only content inside the opening and closing body tags can be displayed to the screen. Here’s what opening and closing body tags look like:
+One of the key HTML elements we use to build a webpage is the body element. 
+
+Only content inside the opening and closing body tags can be displayed to the screen. Here’s what opening and closing body tags look like:
 
 ```
 <body>
@@ -164,7 +169,7 @@ Now you can refresh your website to see the changes.
 
 HTML is organized as a collection of family tree relationships. 
 
-As you saw in the last class, we placed <p> tags within <body> tags. When an element is contained inside another element, it is considered the child of that element. 
+As you saw in the last class, we placed ```<p>``` tags within ```<body>``` tags. When an element is contained inside another element, it is considered the child of that element. 
   
 The child element is said to be nested inside of the parent element.
   
@@ -174,7 +179,7 @@ The child element is said to be nested inside of the parent element.
 </body>
 ```
   
-In the example above, the <p> element is nested inside the <body> element.
+In the example above, the ```<p>``` element is nested inside the <body> element.
   
 Let’s consider a more complicated example that uses some new tags:
   
@@ -187,15 +192,15 @@ Let’s consider a more complicated example that uses some new tags:
 </body>
 ```
 
-In this example, the <body> element is the parent of the <div> element. 
+In this example, the ```<body>``` element is the parent of the ```<div>``` element. 
   
-Both the h1 and p elements are children of the <div> element. 
+Both the ```h1``` and ```p``` elements are children of the ```<div>``` element. 
   
-Because the h1 and p elements are at the same level, they are considered siblings and are both grandchildren of the <body> element.
+Because the ```h1``` and ```p``` elements are at the same level, they are considered siblings and are both grandchildren of the ```<body>``` element.
   
 # Class work 2
   
-Open your index.txt file, make a <div> element a parent of the h1 and p element.
+Open your index.txt file, make a ```<div>``` element a parent of the ```h1``` and ```p``` element.
   
 Your index.txt file would look like this:
   
@@ -271,7 +276,7 @@ Welcome to my first Website.
 
 # Headings
 
- You've already used an heading element in h1 above.
+ You've already used an heading element in ```h1``` above.
  
 In HTML, there are six different headings, or heading elements. 
  
@@ -336,7 +341,7 @@ Welcome to my first Website.
  
  # Div Element
 
- One of the most popular elements in HTML is the ```div``` element. <div> is short for “division” or a container that divides the page into sections.
+ One of the most popular elements in HTML is the ```div``` element. ```<div>``` is short for “division” or a container that divides the page into sections.
  
  These sections are very useful for grouping elements in your HTML together. Like:
  
@@ -386,6 +391,8 @@ Welcome to my first Website.
  
 <p> Here's how i'm learning to build websites at Polygon Africa Bootcamp </p>
  
+</div>
+ 
 <div>
  
 <h1>Polygon Africa Bootcamp</h1>
@@ -416,7 +423,7 @@ Welcome to my first Website.
 So your final html file should be:
  
 ```
- <html>
+<html>
 <head>
  
 <title>
@@ -461,7 +468,8 @@ Welcome to my first Website.
 </body>
 </html>
  ```
- 
+
+ Now note that we've grouped our elements under 3 ```div```s.
  
 # Attributes
  
