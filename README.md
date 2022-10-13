@@ -2,7 +2,9 @@
 
 ## Please note that this tutorial was created for Polygon Africa bootcamp Web2 beginners(this means people who want to learn HTML, CSS, Javascript and React), and we meet by 7pm every day on the discord voice channel.
 
-If you miss the live HTML class, then we've probably moved on to CSS, there's a video link at the end of this text to help you.
+# Video Tutorial - https://youtu.be/9xUM1iDDR-E
+
+If you miss the live HTML class, then we've probably moved on to CSS, there's a video link at the top of this text to help you.
 
 Also, Web2 developers who are getting started with Web3 meet by 9pm, every Monday, Wednesday, and Friday on the discord voice channel.
 
@@ -1181,3 +1183,4 @@ This are the web2 technologies i'm learning at the Polygon Africa Bootcamp
 </html>
  ```
 
+ 
