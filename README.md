@@ -169,7 +169,7 @@ Now you can refresh your website to see the changes.
 
 HTML is organized as a collection of family tree relationships. 
 
-As you saw in the last class, we placed ```<p>``` tags within ```<body>``` tags. When an element is contained inside another element, it is considered the child of that element. 
+As you saw in the last class, we placed ```<p>``` element within ```<body>``` element. When an element is contained inside another element, it is considered the child of that element. 
   
 The child element is said to be nested inside of the parent element.
   
