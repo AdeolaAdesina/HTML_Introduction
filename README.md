@@ -717,4 +717,467 @@ Welcome to my first Website.
  
  # Unordered List
  
+In HTML, you can use an unordered list tag (<ul>) to create a list of items in no particular order. 
+
+An unordered list outlines individual list items with a bullet point.
+
+The <ul> element should not hold raw text and won’t automatically format raw text into an unordered list of items. 
+
+Individual list items must be added to the unordered list using the <li> tag. The <li> or list item tag is used to describe an item in a list.
+
+For example:
+
+```
+<ul>
+  <li>Limes</li>
+  <li>Tortillas</li>
+  <li>Chicken</li>
+</ul>
+```
+
+## Class Work
+
+In your index.html file, create a new div and nest:
+
+1. A paragraph: "This are the web2 technologies i'm learning at the Polygon Africa Bootcamp"
+
+2. An unordered list containing
+-  HTML
+- CSS
+- JavaScript
+- React
  
+ 
+ Your index.html will look like this:
+ 
+```
+<html>
+<head>
+ 
+<title>
+My first site
+</title>
+ 
+</head>
+  
+<body>
+ 
+<div id="first attribute">
+ 
+<h1>
+Welcome to my first Website.
+</h1>
+ 
+ <p><em> Here's how i'm learning to build <br> websites at Polygon Africa Bootcamp </em></p>
+ 
+ </div>
+ 
+ <div id="second attribute">
+ 
+<h1>Polygon Africa Bootcamp</h1>
+<h2>My first time building responsive websites</h2>
+<h3>HTML seems so beautiful</h3>
+<h3>I think i'm enjoying this</h3>
+ 
+</div>
+ 
+<div id="third attribute">
+ 
+  <h1>
+  This is the new heading under the new div element
+ </h1>
+ 
+ <p>
+ <strong>
+ This just explains how to <br> structure an HTML site with divs.
+ </strong>
+ </p>
+ 
+</div>
+
+<div>
+
+<p>
+This are the web2 technologies i'm learning at the Polygon Africa Bootcamp
+</p>
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React</li>
+</ul>
+
+</div
+ 
+</body>
+</html>
+ ```
+
+
+# Ordered List
+
+Ordered lists ```<ol>``` are like unordered lists, except that each list item is numbered.
+
+It looks like this:
+
+```
+<ol>
+  <li>Preheat the oven to 350 degrees.</li>
+  <li>Mix whole wheat flour, baking soda, and salt.</li>
+  <li>Cream the butter, sugar in separate bowl.</li>
+  <li>Add eggs and vanilla extract to bowl.</li>
+</ol>
+```
+
+## Class Work:
+
+Now change the unordered list in your index.html file to an ordered list.
+
+Your index.html file will look like this:
+
+
+```
+<html>
+<head>
+ 
+<title>
+My first site
+</title>
+ 
+</head>
+  
+<body>
+ 
+<div id="first attribute">
+ 
+<h1>
+Welcome to my first Website.
+</h1>
+ 
+ <p><em> Here's how i'm learning to build <br> websites at Polygon Africa Bootcamp </em></p>
+ 
+ </div>
+ 
+ <div id="second attribute">
+ 
+<h1>Polygon Africa Bootcamp</h1>
+<h2>My first time building responsive websites</h2>
+<h3>HTML seems so beautiful</h3>
+<h3>I think i'm enjoying this</h3>
+ 
+</div>
+ 
+<div id="third attribute">
+ 
+  <h1>
+  This is the new heading under the new div element
+ </h1>
+ 
+ <p>
+ <strong>
+ This just explains how to <br> structure an HTML site with divs.
+ </strong>
+ </p>
+ 
+</div>
+
+<div>
+
+<p>
+This are the web2 technologies i'm learning at the Polygon Africa Bootcamp
+</p>
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React</li>
+</ol>
+
+</div
+ 
+</body>
+</html>
+ ```
+
+# Images
+
+All of the elements you’ve learned about so far (headings, paragraphs, lists, and spans) share one thing in common: they’re composed entirely of text!
+
+What if you want to add content to your web page that isn’t composed of text, like images?
+
+The ```<img>``` tag allows you to add an image to a web page. 
+
+Most elements require both opening and closing tags, but the <img> tag is a self-closing tag. 
+
+Note that the end of the <img> tag has a forward slash /. Self-closing tags may include or omit the final slash — both will render properly.
+
+```
+<img src="image-location.jpg" />
+```
+
+The <img> tag has a required attribute called src. 
+
+The src attribute must be set to the image’s source, or the location of the image. 
+
+In this case, the value of src must be the uniform resource locator (URL) of the image. A URL is the web address or local address where a file is stored.
+
+## Class Work
+
+Inside your index.html, use this url as source for your image. Put the image inside the first div container.
+
+URL = https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg
+
+Your code will look like this:
+
+
+```
+<html>
+<head>
+ 
+<title>
+My first site
+</title>
+ 
+</head>
+  
+<body>
+ 
+<div id="first attribute">
+ 
+<h1>
+Welcome to my first Website.
+</h1>
+ 
+ <p><em> Here's how i'm learning to build <br> websites at Polygon Africa Bootcamp </em></p>
+ 
+ <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
+ 
+ </div>
+ 
+ <div id="second attribute">
+ 
+<h1>Polygon Africa Bootcamp</h1>
+<h2>My first time building responsive websites</h2>
+<h3>HTML seems so beautiful</h3>
+<h3>I think i'm enjoying this</h3>
+ 
+</div>
+ 
+<div id="third attribute">
+ 
+  <h1>
+  This is the new heading under the new div element
+ </h1>
+ 
+ <p>
+ <strong>
+ This just explains how to <br> structure an HTML site with divs.
+ </strong>
+ </p>
+ 
+</div>
+
+<div>
+
+<p>
+This are the web2 technologies i'm learning at the Polygon Africa Bootcamp
+</p>
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React</li>
+</ol>
+
+</div
+ 
+</body>
+</html>
+ ```
+ 
+ # Image Alts
+ 
+If an image fails to load on a web page, a user can mouse over the area originally intended for the image and read a brief description of the image. This is made possible by the description you provide in the ```alt``` attribute.
+
+## Class Work
+
+Gi]ve the image element in index.html an alt attribute.
+
+Your index.html will look it this:
+
+```
+<html>
+<head>
+ 
+<title>
+My first site
+</title>
+ 
+</head>
+  
+<body>
+ 
+<div id="first attribute">
+ 
+<h1>
+Welcome to my first Website.
+</h1>
+ 
+ <p><em> Here's how i'm learning to build <br> websites at Polygon Africa Bootcamp </em></p>
+ 
+ <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="this is the image's description" />
+ 
+ </div>
+ 
+ <div id="second attribute">
+ 
+<h1>Polygon Africa Bootcamp</h1>
+<h2>My first time building responsive websites</h2>
+<h3>HTML seems so beautiful</h3>
+<h3>I think i'm enjoying this</h3>
+ 
+</div>
+ 
+<div id="third attribute">
+ 
+  <h1>
+  This is the new heading under the new div element
+ </h1>
+ 
+ <p>
+ <strong>
+ This just explains how to <br> structure an HTML site with divs.
+ </strong>
+ </p>
+ 
+</div>
+
+<div>
+
+<p>
+This are the web2 technologies i'm learning at the Polygon Africa Bootcamp
+</p>
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React</li>
+</ol>
+
+</div
+ 
+</body>
+</html>
+ ```
+ 
+ # Videos
+ 
+In addition to images, HTML also supports displaying videos. 
+
+Like the <img> element, the <video> element requires a src attribute with a link to the video source. 
+
+Unlike the <img> element however, the <video> element requires an opening and a closing tag.
+
+```
+<video src="myVideo.mp4" width="320" height="240" controls>
+  Video not supported
+</video>
+```
+
+In this example, the video source (src) is "myVideo.mp4". 
+
+The source can be a video file that is hosted alongside your webpage, or a URL that points to a video file hosted on another webpage.
+
+After the src attribute, the width and height attributes are used to set the size of the video displayed in the browser. 
+
+The controls attribute instructs the browser to include basic video controls such as pausing and playing.
+
+## Class Work
+
+In index.html, under the image, create a <video> tag and add the following video url as the source:
+
+https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4
+
+Be sure to create a closing tag as well with </video>.
+
+Now your final index.html should look like this:
+
+
+
+```
+<html>
+<head>
+ 
+<title>
+My first site
+</title>
+ 
+</head>
+  
+<body>
+ 
+<div id="first attribute">
+ 
+<h1>
+Welcome to my first Website.
+</h1>
+ 
+ <p><em> Here's how i'm learning to build <br> websites at Polygon Africa Bootcamp </em></p>
+ 
+ <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="this is the image's description" />
+ 
+ <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" 
+ width="320" 
+ height="240" 
+ controls>
+ Video not supported
+ </video>
+ 
+ </div>
+ 
+ <div id="second attribute">
+ 
+<h1>Polygon Africa Bootcamp</h1>
+<h2>My first time building responsive websites</h2>
+<h3>HTML seems so beautiful</h3>
+<h3>I think i'm enjoying this</h3>
+ 
+</div>
+ 
+<div id="third attribute">
+ 
+  <h1>
+  This is the new heading under the new div element
+ </h1>
+ 
+ <p>
+ <strong>
+ This just explains how to <br> structure an HTML site with divs.
+ </strong>
+ </p>
+ 
+</div>
+
+<div>
+
+<p>
+This are the web2 technologies i'm learning at the Polygon Africa Bootcamp
+</p>
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React</li>
+</ol>
+
+</div
+ 
+</body>
+</html>
+ ```
+
