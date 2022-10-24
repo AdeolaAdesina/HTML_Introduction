@@ -1191,4 +1191,6 @@ This are the web2 technologies i'm learning at the Polygon Africa Bootcamp
 </html>
  ```
 
+The next HTML class is in the link below:
  
+https://github.com/AdeolaAdesina/HTML_Introduction_2
